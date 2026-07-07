@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: 绑定本地Mac CI集群算力
-        uses: local-mac-ci-cluster/local-mac-runner-action@main
+        uses: local-mac-ci-cluster/local-mac-runner-action@v1
 
       - name: 检出项目源码
         uses: actions/checkout@v4
