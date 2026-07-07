@@ -8,7 +8,7 @@ on:
 
 jobs:
   build_task:
-    runs-on:  self-hosted,macos-latest
+    runs-on: [self-hosted, macos-latest]
     steps:
       - name: 绑定本地Mac CI集群算力
         uses: local-mac-ci-cluster/local-mac-runner-action@main
